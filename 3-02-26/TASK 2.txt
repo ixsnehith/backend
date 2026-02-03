@@ -1,0 +1,38 @@
+TASK 2 
+ Insert Sample Data 
+
+
+INSERT INTO Students VALUES
+(1001, 'Amogh',  'amogh@mail.com',  21, '2025-01-15', 1),
+(1002, 'Ravi',   'ravi@mail.com',   20, '2025-01-16', 1),
+(1003, 'Raju',   'raju@mail.com',   22, '2025-01-17', 1),
+(1004, 'Anil',   'anil@mail.com',   25, '2025-01-18', 1),
+(1005, 'Aravind','aravind@mail.com',24, '2025-01-19', 1),
+(1006, 'Rishab', 'rishab@mail.com', 21, '2025-01-20', 1),
+(1007, 'Yuvraj', 'yuvraj@mail.com', 23, '2025-01-21', 1),
+(1008, 'Rishi',  'rishi@mail.com',  22, '2025-01-22', 1),
+(1009, 'Sairaj', 'sairaj@mail.com', 24, '2025-01-23', 1),
+(1010, 'Vishnu', 'vishnu@mail.com', 21, '2025-01-24', 1);
+
+
+INSERT INTO Courses VALUES 
+(201, 'Java Full Stack', 45000.00),
+(202, 'Python Backend', 40000.50),
+(203, 'Buisness Analyst', 30000.00),
+(204, 'Data Enginer', 35000.75),
+(205, 'DevOps',  50000.00);
+
+
+INSERT INTO ENROLLMENTS(enroll_id, student_id, course_id)
+VALUES
+(5004, 1001, 204),
+(5005, 1002, 202),
+(5006, 1003, 205),
+(5007, 1004, 203),
+(5008, 1005, 204),
+(5009, 1006, 201),
+(5010, 1007, 202),
+(5011, 1008, 203),
+(5012, 1009, 204),
+(5013, 1010, 205);
+

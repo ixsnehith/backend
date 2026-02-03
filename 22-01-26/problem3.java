@@ -1,4 +1,4 @@
-public class problem3 {
+public class Problem3 {
     void factorial(int n) {
         int factorial = 1;
         for(int i = 1; i <= n; i++) {
@@ -14,7 +14,7 @@ public class problem3 {
     }
 
     public static void main(String[] args) {
-        problem3 obj = new problem3();
+        Problem3 obj = new Problem3();
         obj.factorial(5);
         System.out.println("Sum of 10 and 20 is: " + obj.add(10, 20));
         System.out.println("Is 7 even? " + obj.isEven(7));
